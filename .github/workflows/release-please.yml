@@ -17,7 +17,4 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           release-type: simple
-          changelog-types: |
-            [
-              {"type":"feat","section":"Features","hidden":false},
-            ]
+          changelog-types:  '[{"type":"feat","section":"Features","hidden":false}]'
